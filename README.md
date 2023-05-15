@@ -25,3 +25,4 @@ template 파일들의 git log들은 같이 생성되지 않는다.
   - `core-template` repository 로 와서, `Use template` 클릭
   ![Screenshot 2023-05-15 at 6 11 22 PM](https://github.com/PLAIF-dev/core-template/assets/52237605/9d849c3e-d95a-4113-b76a-cac9cef83bf9)
 
+- 이 파일인 `README.md` 파일을 프로젝트에 맞게 수정하기
