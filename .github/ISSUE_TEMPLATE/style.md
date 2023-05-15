@@ -1,5 +1,5 @@
 ---
-name: 코드스타일 변경
+name: 코드스타일 변경(Style)
 about: 코드 의미를 변경하지 않는 변경(세미콜론 추가, space 추가, 포맷팅)
 title: "style: "
 labels: style

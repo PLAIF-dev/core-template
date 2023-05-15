@@ -1,6 +1,6 @@
-name: 🐞 Bug Report
+name: 🐞 버그 보고(Bug Report)
 description: File a bug report(버그 리포트 작성)
-title: "[Bug] <title>"
+title: "[Bug] "
 labels: ["bug", "triage"]
 body:
 - type: checkboxes

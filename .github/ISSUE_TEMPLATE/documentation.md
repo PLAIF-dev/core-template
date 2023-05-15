@@ -1,5 +1,5 @@
 ---
-name: 문서화
+name: 문서화(Documentation)
 about: 모든 기여자들의 이해를 도울 수 있는 문서화
 title: "docs: "
 labels: documentation
