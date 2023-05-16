@@ -1,18 +1,24 @@
 ---
 name: 코드스타일 변경(Style)
 about: 코드 의미를 변경하지 않는 변경(세미콜론 추가, space 추가, 포맷팅)
-title: "style: "
+title: "[Style] "
 labels: style
 ---
 
-**Descriptions**
+**설명**
 <!--
-    Clearly describe what you are looking to change and why.
     무엇을 바꿀 것이고, 왜 바꿔야하는지 설명해주세요.
+    
+    Examples:
+        1. Class 명칭은 CamelCase 방식으로 작성되어야 합니다.
+        2. ...
 -->
 
-**Requirements**
+**제약 사항**
 <!--
-    - [ ] There is no drop in test coverage.
-    - [ ] test coverage 가 떨어지지 않음
+    이 이슈를 해결 할 때 제약 사항을 적어 주세요, 그 제약 사항을 지키면서 이슈를 해결해야 합니다.
+    
+    Exmaples:
+        1. Test Coverage가 떨어지지 않아야 합니다.
+        2. ...
 -->

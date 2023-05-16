@@ -1,59 +1,54 @@
-name: 🐞 버그 보고(Bug Report)
-description: File a bug report(버그 리포트 작성)
+name: 버그 보고(Bug Report)
+description: 버그 리포트 작성
 title: "[Bug] "
 labels: ["bug", "triage"]
 body:
 - type: checkboxes
   attributes:
-    label: Is there an existing issue for this?
-    description: Please search to see if an issue already exists for the bug you encountered.
+    label: 이미 이슈가 만들어져있지는 않나요?
+    description: 발생한 버그에 대한 이슈가 이미 존재하는지 검색해 보세요.
     options:
-    - label: I have searched the existing issues
+    - label: 이미 만들어진 이슈가 없는 것을 확인했습니다.
       required: true
 - type: textarea
   attributes:
-    label: Current Behavior
-    description: A concise description of what you're experiencing.
+    label: 현재 동작
+    description: 현재 상황에 대한 간결한 설명입니다.
   validations:
-    required: false
+    required: true
 - type: textarea
   attributes:
-    label: Expected Behavior
-    description: A concise description of what you expected to happen.
+    label: 예상되는 동작
+    description: 예상되는 상황에 대한 간결한 설명입니다.
   validations:
-    required: false
+    required: true
 - type: textarea
   attributes:
-    label: Steps To Reproduce
-    description: Steps to reproduce the behavior.
+    label: 재현 단계
+    description: 동작을 재현하는 단계입니다.
     placeholder: |
-      1. In this environment...
-      2. With this config...
-      3. Run '...'
-      4. See error...
+      1. 어떠한 환경에서 ...
+      2. 이러한 설정을 가지고 ...
+      3. '...'를 실행
+      4. ... 의 에러 나타남
   validations:
-    required: false
+    required: true
 - type: textarea
   attributes:
-    label: Environment
-    description: |
-      examples:
-        - **OS**: Ubuntu 20.04
-        - **Node**: 13.14.0
-        - **npm**: 7.6.3
-    value: |
-        - OS:
-        - Node:
-        - npm:
+    label: 환경
+    placeholder: |
+        - OS: Ubuntu 20.04
+        - Node: 13.14.0
+        - npm: 7.6.3
     render: markdown
   validations:
     required: false
 - type: textarea
   attributes:
-    label: Anything else?
+    label: 추가 정보
     description: |
-      Links? References? Anything that will give us more context about the issue you are encountering!
+      Links? References? 발생한 문제에 대한 자세한 내용을 알려주실 수 있는 모든 정보를 기재해주세요!
 
-      Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+      Tip: 파일을 끌어다 놓으면 이미지나 로그 파일을 첨부할 수 있습니다.
   validations:
     required: false
