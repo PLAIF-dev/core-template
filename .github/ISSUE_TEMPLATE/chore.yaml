@@ -19,6 +19,6 @@ body:
 - type: textarea
   attributes:
     label: Requirements
-    description: - [ ] No functional changes to the code
+    description: "- [ ] No functional changes to the code"
   validations:
     required: false
