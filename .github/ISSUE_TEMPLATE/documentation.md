@@ -5,14 +5,22 @@ title: "[Docs] "
 labels: documentation
 ---
 
-**Descriptions**
+**설명**
 <!--
-    Clearly describe what documentation you are looking to add or improve.
     어떠한 문서를 추가하거나 개선하고 싶은지 분명히 설명해주세요.
+    
+    Exmaples:
+        1. ...의 문서의 내용을 추가해야하고, 개선해야합니다.
+        2. ...의 문서의 내용이 불명확합니다.
+        3. ...의 문서의 내용이 코드와 다릅니다.
+        4. ...
 -->
 
-**Requirements**
+**제약 사항**
 <!--
-    - [ ] Requirements go here
-    - [ ] 필요한 경우 추가해주세요
+    이 이슈룰 해결 할 때 제약 사항을 적어주세요, 그 제약 사항을 지키면서 이슈를 해결해야 합니다.
+    Example:
+        1. 문서 내용을 상세하게 적어야 합니다. 
+        2. 모르는 사람이 봐도 이해가 가능하게 적어야 합니다.
+        3. ...
 -->

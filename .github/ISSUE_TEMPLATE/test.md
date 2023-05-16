@@ -5,14 +5,21 @@ title: "[Test] "
 labels: test
 ---
 
-**Descriptions**
+**설명**
 <!--
-    List out the tests that need to be added or changed. Please also include any information as to why this was not covered in the past.
     추가되거나 변경된 테스트 목록을 작성해주세요. 또한, 왜 이러한 테스트가 포함되어야 하는지 작성해주세요.
+    
+    Examples:
+        1. ... 테스트 코드가 추가되었습니다.
+        2. 이 테스트 코드는 return이 ... 값이 아닐 때 발생합니다.
+        3. ...
 -->
 
-**Requirements**
+**제약 사항**
 <!-- 
-    - [ ] There is no drop in test coverage. 
-    - [ ] test coverage 가 떨어지지 않음
+    이 이슈를 해결 할 때 제약 사항을 적어 주세요, 그 제약 사항을 지키면서 이슈를 해결해야 합니다.
+    
+    Exmaples:
+        1. Test Coverage가 떨어지지 않아야 합니다.
+        2. ...
 -->

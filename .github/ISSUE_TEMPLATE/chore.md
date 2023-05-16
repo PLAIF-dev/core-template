@@ -5,14 +5,22 @@ title: "[Chore] "
 labels: chore
 ---
 
-**Descriptions**
+**설명**
 <!--
-    Clearly describe what change is needed and why. If this changes code then please use another issue type.
     무엇을, 왜 변경했는지 설명해주세요. 만약 code를 바꾸는 경우에는 반드시 다른 issue 타입을 사용해주세요
+
+    Examples:
+        1. ...를 변경하였고, ...를 추가하였습니다.
+        2. 이 작업은 ...를 위한 작업입니다.
+        3. ...
 -->
 
-**Requirements**
+**제약 사항**
 <!--
-    - [ ] No functional changes to the code
-    - [ ] 코드의 기능적 변경이 없음
+    이 이슈를 해결 할 때 제약 사항을 적어 주세요, 그 제약 사항을 지키면서 이슈를 해결해야 합니다.
+    
+    Examples:
+        1. ... 파일은 수정을 하지 말아야 합니다.
+        2. 특정 확장자만 파일을 추가해야 합니다.
+        3. ...
 -->

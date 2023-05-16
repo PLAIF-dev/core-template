@@ -5,17 +5,22 @@ title: "[CI] "
 labels: ci
 ---
 
-**Descriptions**
+**설명**
 <!--
-    Describe what changes need to be done to the ci/cd system and why.
     CI/CD 시스템에 무엇을 변경해야 하고 왜 변경해야하는지 이유를 설명해주세요.
+
+    Examples:
+        1. ...를 변경하였고, ...를 추가하였습니다.
+        2. 이 작업은 ...를 위한 작업입니다.
+        3. ...
 -->
 
-**Requirements**
+**제약 사항**
 <!--
-    Describe what changes need to be done to the ci/cd system and why.
-    CI/CD 시스템에 무엇을 변경해야 하고 왜 변경해야하는지 이유를 설명해주세요.
-
-    - [ ] The ci system is passing
-    - [ ] CI 이전처럼 문제없이 통과
+    이 이슈를 해결 할 때 제약 사항을 적어 주세요, 그 제약 사항을 지키면서 이슈를 해결해야 합니다.
+    
+    Examples:
+        1. 이전처럼 CI가 문제없이 통과되어야 합니다.
+        2. 이전처럼 CD가 문제없이 통과되어야 합니다.
+        3. ...
 -->
