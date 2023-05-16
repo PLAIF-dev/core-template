@@ -1,7 +1,7 @@
 ---
 name: 잡무(Chore)
 about: `src`나 `test`파일을 바꾸지 않는 일들
-title: "chore: "
+title: "[Chore] "
 labels: chore
 ---
 

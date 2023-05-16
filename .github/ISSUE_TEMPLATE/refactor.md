@@ -1,7 +1,7 @@
 ---
 name: 리팩토링(Refactoring)
 about: 'bug를 고치거나, 기능을 추가'한 것이 아닌 코드 변경
-title: "refactor: "
+title: "[Refactor] "
 labels: refactor
 ---
 

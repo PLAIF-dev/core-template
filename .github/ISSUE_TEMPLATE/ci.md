@@ -1,7 +1,7 @@
 ---
 name: 지속적 통합(CI, Continuous Integration)
 about: CI 설정파일이나 스크립트 변경
-title: "ci: "
+title: "[CI] "
 labels: ci
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: 기능 추가(Feature Request)
 about: 프로젝트에 추가될 새 기능
-title: "feat: "
+title: "[Feat] "
 labels: feature
 ---
 
