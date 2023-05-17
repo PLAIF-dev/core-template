@@ -1,13 +1,10 @@
-# Pull Request
-
 ## 설명
 
 <!-- 
-  아래 "Issue Number: close " 옆에 Issue 번호를 함께 추가하세요. 자동으로 issue를 연결해줍니다.
+  여러개의 Issue를 하나의 PR에 묶고 싶은 경우:
+  "Issue Number: close " 옆에 Issue 번호를 함께 추가하세요. 자동으로 issue를 연결해줍니다.
   ex) Issue Number: close #23
 -->
-
-Issue Number: close <!--이 주석 부분에 숫자를 입력하세요-->
 
 이 PR에 대한 설명은 다음과 같습니다.
 
