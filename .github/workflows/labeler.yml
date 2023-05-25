@@ -1,6 +1,9 @@
 name: Labeler
 on: 
   issues:
+    # 추가할 수 있는 이벤트는 
+    # [다음 경로](https://docs.github.com/ko/actions/using-workflows/events-that-trigger-workflows)
+    # 를 참고.
     types: [opened, edited, milestoned]
   pull_request_target:
     types: [opened]
@@ -9,11 +12,13 @@ jobs:
   labeler:
     runs-on: ubuntu-latest
     
+    # 권한 설정을 해주어야 comment 처리 가능
     permissions:
       contents: read
       pull-requests: write
       issues: write
     
+    # 사용 action config
     steps:
     - name: Check Labels
       id: labeler

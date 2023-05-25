@@ -1,7 +1,11 @@
+ # .github/workflows/labeler.yml 파일의 설정 파일.
+ # 파일 경로 및 이름은 반드시 .github/labeler.yml 이어야 함.
 enable:
+  # 각 issue와 pr에 대해서 기능을 활성화 할지 여부
   issues: true
   prs: true
 
+# labeler action이 labeling 하기전에 추가할 comment의 내용
 comments:
   issues: |
     더 나은 코드를 작업하기 위해 Issue를 생성해주셔서 정말 감사해요!
@@ -12,7 +16,7 @@ comments:
     저는 라벨봇, 여러분께서 적어주신 Pull Request의 제목과 내용에 특정 단어를 찾아서 라벨을 대신 달아드리고 있어요😊.
     라벨을 한번 검토해주시고, 잘못된 라벨이 붙여졌다면 변경 부탁드려요🙏.
 
-# label
+# labeling keyword 설정
 labels:
   'bug':
     include:
