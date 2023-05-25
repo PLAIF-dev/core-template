@@ -1,0 +1,34 @@
+enable:
+  issues: true
+  prs: true
+
+comments:
+  issues: |
+    더 나은 코드를 작업하기 위해 Issue를 생성해주셔서 정말 감사해요!
+    저는 라벨봇, 여러분께서 적어주신 Issue의 제목과 내용에 특정 단어를 찾아서 라벨을 대신 달아드리고 있어요😊.
+    라벨을 한번 검토해주시고, 잘못된 라벨이 붙여졌다면 변경 부탁드려요🙏.
+  prs: |
+    작업을 멋지게 완성하여 기여해주셔서 정말 감사해요!
+    저는 라벨봇, 여러분께서 적어주신 Pull Request의 제목과 내용에 특정 단어를 찾아서 라벨을 대신 달아드리고 있어요😊.
+    라벨을 한번 검토해주시고, 잘못된 라벨이 붙여졌다면 변경 부탁드려요🙏.
+
+# label
+labels:
+  'bug':
+    include:
+      - '\Bug\b'
+  'test':
+    include:
+      - '\Test\b'
+  'feature':
+    include:
+      - '\Feat\b'
+  'documentation':
+    include:
+      - '\bDocs\b'
+  'refactor':
+    include:
+      - '\bRefactor\b'
+  'chore':
+    include:
+      - '\bChore\b'
