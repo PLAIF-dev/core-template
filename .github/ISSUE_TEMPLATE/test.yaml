@@ -1,7 +1,7 @@
-name: 테스트(Test) - YAML
+name: 테스트(Test)
 description: 테스트 추가 및 기존 테스트 변경
 title: "[Test] "
-labels: ["test"]
+labels: ["✅ test"]
 body:
 - type: textarea
   attributes:

@@ -1,7 +1,7 @@
-name: 문서화(Documentation) - YAML
+name: 문서화(Documentation)
 description: 모든 기여자들의 이해를 도울 수 있는 문서화
 title: "[Docs] "
-labels: ["documentation"]
+labels: ["📃 docs"]
 body:
 - type: textarea
   attributes:

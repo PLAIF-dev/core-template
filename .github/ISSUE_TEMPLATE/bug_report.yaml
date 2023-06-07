@@ -1,7 +1,7 @@
 name: 버그 보고(Bug Report)
 description: 버그 리포트 작성
 title: "[Bug] "
-labels: ["bug", "triage"]
+labels: ["🐞 bug"]
 body:
 - type: checkboxes
   attributes:

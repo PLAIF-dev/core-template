@@ -1,7 +1,7 @@
-name: 기능 추가(Feature Request) - YAML
+name: 기능 추가(Feature Request)
 description: 프로젝트에 추가될 새 기능
 title: "[Feat] "
-labels: ["feature"]
+labels: ["✨ feat"]
 body:
 - type: textarea
   attributes:
